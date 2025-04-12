@@ -1,8 +1,0 @@
-<Project Sdk="Microsoft.Build.NoTargets">
-  <Import Project="$(MSBuildThisFileDirectory)ProjectsToPublish.props" />
-
-  <PropertyGroup>
-    <BundleName>dotnet-monitor</BundleName>
-    <TargetFramework>$(DotnetMonitorPublishTargetFramework)</TargetFramework>
-  </PropertyGroup>
-</Project>

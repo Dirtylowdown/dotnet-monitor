@@ -1,8 +1,0 @@
-{
-  "Filters": [
-    {
-      "Key": "ProcessId" /*MemoryConfigurationProvider*/,
-      "Value": "12345" /*MemoryConfigurationProvider*/
-    }
-  ]
-}

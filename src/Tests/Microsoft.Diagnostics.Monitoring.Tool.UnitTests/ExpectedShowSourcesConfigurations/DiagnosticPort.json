@@ -1,4 +1,0 @@
-{
-    "ConnectionMode": "Listen" /*MemoryConfigurationProvider*/,
-    "EndpointName": "\\\\.\\pipe\\dotnet-monitor-pipe" /*MemoryConfigurationProvider*/
-}
