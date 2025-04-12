@@ -1,9 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <RunAnalyzers Condition="'$(RunAnalyzers)' == ''">true</RunAnalyzers>
-  </PropertyGroup>
-  <ItemGroup Condition="'$(RunAnalyzers)' != 'false'">
-    <EditorConfigFiles Include="$(MSBuildThisFileDirectory)CodeAnalysis.globalconfig" />
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" PrivateAssets="all" />
-  </ItemGroup>
-</Project>
